@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\beauty.png" />
+    <None Remove="Resources\bussiness-man.png" />
+    <None Remove="Resources\diz.jpg" />
+    <None Remove="Resources\Icon.ico" />
+    <None Remove="Resources\Numeric sort inverted.ico" />
+    <None Remove="Resources\Numeric sort.ico" />
+    <None Remove="Resources\rulevoe-upravlenie-avtomobilya.jpg" />
+    <None Remove="Resources\service_logo.ico" />
+    <None Remove="Resources\service_logo.png" />
+    <None Remove="Resources\transmission.jpg" />
+    <None Remove="Resources\web-development.png" />
+    <None Remove="Resources\АКПП.jpg" />
+    <None Remove="Resources\Вариатор.jpg" />
+    <None Remove="Resources\Выхлопная система.jpg" />
+    <None Remove="Resources\ГУР.png" />
+    <None Remove="Resources\Двигатель.png" />
+    <None Remove="Resources\Дополнительные услуги.png" />
+    <None Remove="Resources\Кондиционер.jpg" />
+    <None Remove="Resources\КПП.png" />
+    <None Remove="Resources\Подвеска.png" />
+    <None Remove="Resources\Сцепление.jpg" />
+    <None Remove="Resources\Техническое обслуживание.png" />
+    <None Remove="Resources\Топливная система.png" />
+    <None Remove="Resources\Шиномонтаж.jpg" />
+    <None Remove="Resources\Электрика.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EmguCV" Version="3.1.0.1" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="5.1.0" />
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.13" />
+    <PackageReference Include="Ninject" Version="3.3.6" />
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="OpenTK.GLControl" Version="4.0.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+    <PackageReference Include="ZedGraph" Version="5.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\Downloads\license-plate-recognition-master\license-plate-recognition-master\src\LPlateRecognition.UI\bin\Debug\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL">
+      <HintPath>..\..\..\..\Downloads\license-plate-recognition-master\license-plate-recognition-master\src\LPlateRecognition.UI\bin\Debug\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>..\..\..\..\Downloads\license-plate-recognition-master\license-plate-recognition-master\src\LPlateRecognition.UI\bin\Debug\Emgu.CV.World.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\beauty.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\bussiness-man.png" />
+    <Resource Include="Resources\diz.jpg" />
+    <Resource Include="Resources\Icon.ico" />
+    <Resource Include="Resources\Numeric sort inverted.ico" />
+    <Resource Include="Resources\Numeric sort.ico" />
+    <Resource Include="Resources\rulevoe-upravlenie-avtomobilya.jpg" />
+    <Resource Include="Resources\service_logo.ico" />
+    <Resource Include="Resources\service_logo.png" />
+    <Resource Include="Resources\transmission.jpg" />
+    <Resource Include="Resources\web-development.png" />
+    <Resource Include="Resources\АКПП.jpg" />
+    <Resource Include="Resources\Вариатор.jpg" />
+    <Resource Include="Resources\Выхлопная система.jpg" />
+    <Resource Include="Resources\ГУР.png" />
+    <Resource Include="Resources\Двигатель.png" />
+    <Resource Include="Resources\Дополнительные услуги.png" />
+    <Resource Include="Resources\Кондиционер.jpg" />
+    <Resource Include="Resources\КПП.png" />
+    <Resource Include="Resources\Подвеска.png" />
+    <Resource Include="Resources\Сцепление.jpg" />
+    <Resource Include="Resources\Техническое обслуживание.png" />
+    <Resource Include="Resources\Топливная система.png" />
+    <Resource Include="Resources\Шиномонтаж.jpg" />
+    <Resource Include="Resources\Электрика.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="connect.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
